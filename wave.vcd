@@ -1,0 +1,53 @@
+$date
+	Sun Jul 13 03:52:46 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_cla_8bit $end
+$var reg 8 ! a [7:0] $end
+$upscope $end
+$scope module tb_cla_8bit $end
+$var reg 8 " b [7:0] $end
+$upscope $end
+$scope module tb_cla_8bit $end
+$var reg 1 # c0 $end
+$upscope $end
+$scope module tb_cla_8bit $end
+$var wire 8 $ s [7:0] $end
+$upscope $end
+$scope module tb_cla_8bit $end
+$var wire 1 % c8 $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+b0 $
+0#
+b0 "
+b0 !
+$end
+#10000
+b10 $
+b1 "
+b1 !
+#20000
+b10001000 $
+b110011 "
+b1010101 !
+#30000
+1%
+b0 $
+b1 "
+b11111111 !
+#40000
+1%
+b1 $
+1#
+b10000000 "
+b10000000 !
+#50000
